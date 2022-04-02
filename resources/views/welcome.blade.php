@@ -1047,10 +1047,8 @@
                     <div class="m-5">
                         <div class="position-relative">
                             <div class="contact-map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29754.94142818836!2d72.88699279999999!3d21.217263799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1641286801478!5m2!1sen!2sin"
-                                    width="550" height="450" style="border:0;" allowfullscreen=""
-                                    loading="lazy"></iframe>
+                                {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29754.94142818836!2d72.88699279999999!3d21.217263799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1641286801478!5m2!1sen!2sin" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> --}}
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.0692381004505!2d88.39022441495763!3d22.464032285238837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecee6d65adfbb8fc!2zMjLCsDI3JzUwLjUiTiA4OMKwMjMnMzIuNyJF!5e0!3m2!1sen!2sin!4v1648886621652!5m2!1sen!2sin" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <div class="map-shape"></div>
                         </div>
@@ -1186,8 +1184,7 @@
                 <div class="col-lg-6">
                     <p class="mb-0 text-center text-muted"> &copy;
                         <script>document.write(new Date().getFullYear())</script> Casera. Design with <i
-                            class="mdi mdi-heart text-danger"></i> by <a
-                            href="https://store.themesdesign.in" target="_blank" class="text-muted">Themesdesign.</a>
+                            class="mdi mdi-heart text-danger"></i>
                     </p>
                 </div>
             </div>
