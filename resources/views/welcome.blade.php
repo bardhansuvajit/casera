@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Casera - App Landing Template</title>
+    <title>Casera - Software development company | IT company</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=" " />
     <meta name="keywords" content="" />
-    <meta content="Pichforest" name="author" />
 
     <link rel="shortcut icon" href="{{asset('front/images/favicon.ico')}}">
     <link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}" type="text/css" id="bootstrap-style" />
@@ -16,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('front/css/tiny-slider.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{asset('front/css/swiper.min.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{asset('front/css/style.min.css')}}" type="text/css" />
+    <link rel="stylesheet" href="{{asset('front/css/custom.css')}}" type="text/css" />
     <link href="{{asset('front/css/colors/default.css')}}" rel="stylesheet" type="text/css" id="color-opt" />
 </head>
 
@@ -30,8 +30,6 @@
     <!-- START  NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-light" id="navbar">
         <div class="container-fluid">
-
-            <!-- LOGO -->
             <a class="navbar-brand logo text-uppercase" href="{{route('welcome')}}">
                 <img src="{{asset('front/images/logo-light.png')}}" class="logo-light" alt="" height="30">
                 <img src="{{asset('front/images/logo-dark.png')}}" class="logo-dark" alt="" height="30">
@@ -51,23 +49,23 @@
                         <a class="nav-link" href="#service">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#why-us">Why us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#app">Application</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#team">Team</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <div class="ms-auto">
-                    <a href="" class="btn bg-gradiant">Login</a>
+                    <a href="tel:9330685831" class="btn bg-gradiant"> <i class="mdi mdi-phone text-light"></i> 9330685831</a>
                 </div>
             </div>
         </div>
@@ -84,10 +82,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <img src="{{asset('front/images/baby-phone.png')}}" alt="" class="img-fluid mb-4 smallphone-image">
-                    <h1 class="display-5 fw-bold">Perfect app landing page for your app.</h1>
-                    <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-                        voluptatum quasi possimus minima consequuntur, odio impedit incidunt.</p>
-                    <button class="btn bg-gradiant mt-4">Read More</button>
+                    <h1 class="display-7 fw-bold">Office management software, <br> Web development, <br> App development</h1>
+                    <p class="mt-4 text-muted">Bring your ideas to live with Casera. <strong>Service available 24 X 7</strong> </p>
+                    <a href="#app" class="btn bg-gradiant mt-4">Read More</a>
                 </div>
 
                 <div class="col-lg-5 offset-md-1 ">
@@ -98,23 +95,18 @@
                 </div>
             </div>
         </div>
-
         <div class="background-line"></div>
     </section>
-
-
 
     <section class="section service bg-light" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">What We Do?</h6>
-                        <h2 class="f-40">How can help you!</h2>
+                        <h6 class="mb-0 fw-bold text-primary">How can we help you!</h6>
+                        <h2 class="f-40">Our services</h2>
                         <div class="border-phone">
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
-                                inventore omnis aliquid rerum alias molestias.</p>
-
+                            {{-- <p class="text-muted">Lorem</p> --}}
                         </div>
                     </div>
                 </div>
@@ -130,10 +122,9 @@
 
                         <div class="service-content mt-4">
                             <a href="">
-                                <h5 class="fw-bold">Fully Secured</h5>
+                                <h5 class="fw-bold">Business management</h5>
                             </a>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, adipiscing elit. Phasellus hendrerit.
-                                Pellentesque aliquet nibh nec urna.</p>
+                            <p class="text-muted">We provide everything to manage a business online, from tools to management software.</p>
                         </div>
                     </div>
                 </div>
@@ -147,10 +138,9 @@
 
                         <div class="service-content mt-4">
                             <a href="">
-                                <h5 class="fw-bold">Creative Idea</h5>
+                                <h5 class="fw-bold">Web development</h5>
                             </a>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, adipiscing elit. Phasellus hendrerit.
-                                Pellentesque aliquet nibh nec urna.</p>
+                            <p class="text-muted">Web design & development has always been part of the game.</p>
                         </div>
                     </div>
                 </div>
@@ -164,10 +154,9 @@
 
                         <div class="service-content mt-4">
                             <a href="">
-                                <h5 class="fw-bold">Deasign & Brading</h5>
+                                <h5 class="fw-bold">App development</h5>
                             </a>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, adipiscing elit. Phasellus hendrerit.
-                                Pellentesque aliquet nibh nec urna.</p>
+                            <p class="text-muted">From android to iOS, Native to hybrid application. You name it, we provide.</p>
                         </div>
                     </div>
                 </div>
@@ -178,37 +167,29 @@
 
 
     <!-- start features -->
-    <div class="section features" id="features">
+    <div class="section features" id="why-us">
         <!-- start container -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">AppTech Features</h6>
-                        <h2 class="f-40">Features for our app </h2>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
-                            inventore omnis aliquid rerum alias molestias.</p>
+                        <h6 class="mb-0 fw-bold text-primary">Why we are best in the game!</h6>
+                        <h2 class="f-40">Why us</h2>
+                        {{-- <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos inventore omnis aliquid rerum alias molestias.</p> --}}
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center">
-
-
                 <div class="col-lg-12">
-                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    {{-- <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">Top Features</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Top Features</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">Smart Features</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Smart Features</button>
                         </li>
-
-                    </ul>
+                    </ul> --}}
                     <div class="tab-content mt-5" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                             aria-labelledby="pills-home-tab">
@@ -220,7 +201,7 @@
                                         </div>
                                         <div class="content mt-3">
                                             <h5>Responsive Design</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <p>Desktop, Laptop, Tab & Mobile friendly</p>
                                         </div>
                                     </div>
 
@@ -230,7 +211,7 @@
                                         </div>
                                         <div class="content mt-3">
                                             <h5>Cool Features</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <p>Idea meets brilliance</p>
                                         </div>
                                     </div>
 
@@ -239,8 +220,8 @@
                                             <i class="mdi mdi-eyedropper f-24"></i>
                                         </div>
                                         <div class="content mt-3">
-                                            <h5>Lifetime Support</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <h5>24X7 Support</h5>
+                                            <p>We are there for you</p>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +235,7 @@
                                         </div>
                                         <div class="content mt-3">
                                             <h5>Stunning Design</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <p>Attractive to your user-base</p>
                                         </div>
                                     </div>
 
@@ -263,8 +244,8 @@
                                             <i class="mdi mdi-dropbox f-24"></i>
                                         </div>
                                         <div class="content mt-3">
-                                            <h5>Best PSD Pack</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <h5>Best Icons Pack</h5>
+                                            <p>For more attraction</p>
                                         </div>
                                     </div>
 
@@ -274,7 +255,7 @@
                                         </div>
                                         <div class="content mt-3">
                                             <h5>Creative Idea</h5>
-                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                            <p>Unique ideas to boost your business</p>
                                         </div>
                                     </div>
                                 </div>
@@ -360,8 +341,6 @@
         <!-- end container -->
     </div>
     <!-- end features -->
-
-
 
     <!-- start testimonial -->
     <section class="section bg-light testimonial" id="testimonial">
@@ -578,16 +557,14 @@
 
 
     <!-- pricing section -->
-    <section class="section pricing" id="pricing">
+    <section class="section pricing" id="work">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">What's Your Price!</h6>
-                        <h2 class="f-40">Pricing plans!</h2>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
-                            inventore omnis aliquid rerum alias molestias.</p>
-
+                        <h6 class="mb-0 fw-bold text-primary">Our clients & works!</h6>
+                        <h2 class="f-40">Our work!</h2>
+                        {{-- <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos inventore omnis aliquid rerum alias molestias.</p> --}}
                     </div>
                 </div>
             </div>
@@ -596,64 +573,56 @@
                 <div class="col-lg-4">
                     <div class="price-item shadow-sm overflow-hidden">
                         <div class="price-up-box active p-4">
-                            <div class="badge bg-primary fw-normal f-14">Basic</div>
+                            <div class="badge bg-primary fw-normal f-14">eCommerce</div>
                             <div class="price-tag mt-2">
-                                <h2 class="text-white mb-0 f-40"><sup class="f-22 fw-normal">$</sup>09<sup
-                                        class="f-16 fw-normal"> /month</sup></h2>
+                                <h2 class="text-white mb-0 f-40">Torzo</h2>
+                                {{-- <h2 class="text-white mb-0 f-40"><sup class="f-22 fw-normal">$</sup>09<sup class="f-16 fw-normal"> /month</sup></h2> --}}
                             </div>
-                            <p class="text-white-50 mb-1">17 to 19 user</p>
-                            <p class="text-white-50 mb-0">For most businesses that want to optimize web query.</p>
+                            <p class="text-white-50 mb-1">Duration : 60 days</p>
+                            <p class="text-white-50 mb-0">TORZO is an online ecommerce application which provides an interactive experience to its users from buying a product to tracking it. Torzo is implemented with Admin & Seller CRM that controls the dynamic contents of the website to go live products. My work was to provide the interactive design of the website & work on REST APIs with JSON responses. The most challenging part on developing the application was working on the shopping cart, with options like Save for later, quantity updates, coupon code implementation etc. which I developed with AJAX. I implemented PAYTM Payment gateway with successful payment implementation too.</p>
+
+                            <a href="https://torzo.in/" class="btn btn-light btn-sm text-primary mt-3" target="_blank"><i class="mdi mdi-check-all me-2"></i>Visit now</a>
                         </div>
+
                         <div class="border border-3"></div>
 
-                        <div class="price-down-box p-4">
+                        {{-- <div class="price-down-box p-4">
                             <ul class="list-unstyled ">
-                                <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>2 App and
-                                    project</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>400 Gb/s
-                                    storange</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Free
-                                    coustom domain
+                                <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>2 App and project</li>
+                                <li class="mt-2"><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>400 Gb/s storange</li>
+                                <li class="mt-2"><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Free coustom domain
                                 </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Chat
-                                    Support
+                                <li class="mt-2"><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Chat Support
                                 </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>No
-                                    transaction fees
+                                <li class="mt-2"><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>No transaction fees
                                 </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
-                                    Storage
+                                <li class="mt-2"><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited Storage
                                 </li>
-
                             </ul>
-                            <a href="" class="btn btn-sm text-primary mt-3"><i class="mdi mdi-check-all me-2"></i>your
-                                plane</a>
-                        </div>
+                            <a href="" class="btn btn-sm text-primary mt-3"><i class="mdi mdi-check-all me-2"></i>your plane</a>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="price-item shadow-sm overflow-hidden mt-4 mt-lg-0">
-                        <div class="topbar-header bg-primary py-2 text-center">
+                        {{-- <div class="topbar-header bg-primary py-2 text-center">
                             <h6 class="mb-0 text-white fw-normal">Recommended For You</h6>
-                        </div>
+                        </div> --}}
                         <div class="price-up-box p-4">
-                            <div class="badge bg-primary fw-normal f-14">Startup</div>
+                            <div class="badge bg-primary fw-normal f-14">CA Farm</div>
                             <div class="price-tag mt-2">
-                                <h2 class="text-dark mb-0 f-40"><sup class="f-22 fw-normal">$</sup>19
-                                    <sup class="f-16 fw-normal"> /month</sup>
-                                </h2>
+                                <h2 class="text-dark mb-0 f-40">LENSTAX</h2>
+                                {{-- <h2 class="text-dark mb-0 f-40"><sup class="f-22 fw-normal">$</sup>19 <sup class="f-16 fw-normal"> /month</sup></h2> --}}
                             </div>
-                            <p class="text-muted mb-1">20 to 40 user</p>
-                            <p class="text-muted mb-0">For most businesses that want to optimize web query.</p>
+
+                            <p class="text-muted mb-1">Duration : 90 days</p>
+                            <p class="text-muted mb-0">Lenstax is a CA farm application which I developed as a Team leader with the team of 3 people. It is a unique application which provides GST, Company registration, FSSAI licenses, IT return etc. My work was based on providing a WYSIWYG editor for the CRM handling team so that they can write proper contents & that can display on the application. I also worked on making the application dynamic with compressed image functionalities and minified assets.</p>
+
+                            <a href="https://lenstax.com/" class="btn btn-light btn-sm text-primary mt-3" target="_blank"><i class="mdi mdi-check-all me-2"></i>Visit now</a>
                         </div>
                         <div class="border border-3"></div>
 
-                        <div class="price-down-box p-4">
+                        {{-- <div class="price-down-box p-4">
                             <ul class="list-unstyled ">
                                 <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>15 App and
                                     project</li>
@@ -679,23 +648,25 @@
                             </ul>
                             <a href="" class="btn btn-sm btn-primary mt-3"><i class="mdi mdi-check-all me-2"></i>Buy
                                 Now</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="price-item shadow-sm overflow-hidden mt-4 mt-lg-0">
                         <div class="price-up-box p-4">
-                            <div class="badge bg-primary fw-normal f-14">Enterprise</div>
+                            <div class="badge bg-primary fw-normal f-14">Tourism Industry</div>
                             <div class="price-tag mt-2">
-                                <h2 class="text-dark mb-0 f-40"><sup class="f-22 fw-normal">$</sup>29<sup
-                                        class="f-16 fw-normal"> /month</sup></h2>
+                                <h2 class="text-dark mb-0 f-40">Carrnival</h2>
                             </div>
-                            <p class="text-muted mb-1">17 to 19 user</p>
-                            <p class="text-muted mb-0">For most businesses that want to optimize web query.</p>
+                            <p class="text-muted mb-1">Duration : 60 days</p>
+                            <p class="text-muted mb-0">Travotic is a tourism website based on PHP with custom MVC framework-based application with Admin CRM. The application is divided into 3 types of travel destination like Weekend, Domestic & International packages. Each destination under them comes with dynamic tags like honeymoon, beach, couple packages etc. The main challenging part with this application was to work on lead management. I worked on lead management with notification alert on admin panel & implemented SMS gateway too. Another challenging module was to implement custom itinerary generation based on guest requirement.
+                            </p>
+
+                            <a href="https://carrnivaltrips.com/" class="btn btn-light btn-sm text-primary mt-3" target="_blank"><i class="mdi mdi-check-all me-2"></i>Visit now</a>
                         </div>
                         <div class="border border-3"></div>
 
-                        <div class="price-down-box p-4">
+                        {{-- <div class="price-down-box p-4">
                             <ul class="list-unstyled ">
                                 <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
                                     App and
@@ -722,7 +693,7 @@
                             </ul>
                             <a href="" class="btn btn-sm btn-primary mt-3"><i class="mdi mdi-check-all me-2"></i>Buy
                                 Now</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -740,9 +711,8 @@
                 <div class="col-lg-8">
                     <div class="title text-center mb-5">
                         <h6 class="mb-0 fw-bold text-primary">App Screen!</h6>
-                        <h2 class="f-40">Show our App Screenshots!</h2>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br>
-                            inventore omnis aliquid rerum alias molestias.</p>
+                        <h2 class="f-40">Our application works!</h2>
+                        {{-- <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br> inventore omnis aliquid rerum alias molestias.</p> --}}
                     </div>
                 </div>
             </div>
@@ -788,7 +758,7 @@
 
 
     <!-- team section -->
-    <section class="section team" id="team">
+    {{-- <section class="section team" id="team">
         <!-- start container -->
         <div class="container">
             <div class="row justify-content-center">
@@ -930,7 +900,7 @@
             </div>
         </div>
         <!-- end container -->
-    </section>
+    </section> --}}
     <!-- end section -->
 
 
@@ -943,10 +913,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="py-5">
-                        <h1 class="display-4 text-white">Build Your ideal workspace today.</h1>
-                        <p class="text-white-50 mt-3 f-18">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Iure distinctio vero facilis numquam sapiente! Eaque inventore eveniet repellendus quod
-                            maiores nulla.</p>
+                        <h1 class="display-4 text-white">Build Your ideas into live !</h1>
+                        <p class="text-white-50 mt-3 f-18">Casera, FUTURE CALLING.</p>
                         <div class="d-flex mt-4 ">
                             <div class="app-store">
                                 <a href=""><img src="{{asset('front/images/img-appstore.png')}}" alt="" class="img-fluid"></a>
@@ -978,9 +946,7 @@
                     <div class="title text-center mb-5">
                         <h6 class="mb-0 fw-bold text-primary">Contact Us</h6>
                         <h2 class="f-40">Get In Touch!</h2>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br>
-                            inventore omnis aliquid rerum alias molestias.</p>
-
+                        {{-- <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br> inventore omnis aliquid rerum alias molestias.</p> --}}
                     </div>
                 </div>
             </div>
@@ -989,11 +955,19 @@
                 <div class="col-lg-5">
                     <div class="contact-box">
                         <div class="mb-4">
-                            <h4 class=" fw-semibold mb-1">Need Support !</h4>
-                            <p class="text-muted">Contact us for a quote , help to join the them.</p>
+                            <h4 class=" fw-semibold mb-1">Need Support ?</h4>
+                            <p class="text-muted">Contact us for a quote.</p>
                         </div>
 
-                        <div class="custom-form mt-4 ">
+                        <div class="mt-4">
+                            <h5 class="text-dark fw-200"> <span class="text-muted">Call : </span> <a href="tel:9330685831"><strong> 9330685831</strong></a> </h5>
+
+                            <h5 class="text-dark"> <span class="text-muted">Email : </span> <a href="mailto:casera.tech@gmail.com"><strong>casera.tech@gmail.com</strong></a> </h5>
+
+                            <h5 class="text-dark"> <span class="text-muted">Address : </span> <strong>6 SN, Garia Station Road, Kolkata-700084</strong> </h5>
+                        </div>
+
+                        {{-- <div class="custom-form mt-4 ">
                             <form method="post" name="myForm" onsubmit="return validateForm()">
                                 <p id="error-msg" style="opacity: 1;">
                                     <!-- <div class="alert alert-warning">*Please enter a Name*</div> -->
@@ -1038,7 +1012,7 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -1064,7 +1038,7 @@
                         </div>
                         <div class="flex-grow-1 ms-3">
                             <h5 class="mb-1">Location</h5>
-                            <p class="f-14 mb-0 text-muted">2276 Lynn Ogden Lane Beaumont</p>
+                            <p class="f-14 mb-0 text-muted">6 SN, Garia Station Road, Kolkata-700084</p>
                         </div>
                     </div>
                 </div>
@@ -1075,7 +1049,7 @@
                         </div>
                         <div class="flex-grow-1 ms-3">
                             <h5 class="mb-1">Email</h5>
-                            <p class="f-14 mb-0 text-muted">Email: FredVWeaver@rhyta.com</p>
+                            <p class="f-14 mb-0 text-muted">casera.tech@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -1086,7 +1060,7 @@
                         </div>
                         <div class="flex-grow-1 ms-3">
                             <h5 class="mb-1">Phone</h5>
-                            <p class="f-14 mb-0 text-muted">2276 Lynn Ogden Lane Beaumont</p>
+                            <p class="f-14 mb-0 text-muted">9330685831</p>
                         </div>
                     </div>
                 </div>
@@ -1111,8 +1085,7 @@
                         <img src="{{asset('front/images/logo-footer.png')}}" class="logo-light" alt="" height="30">
                         <!-- <img src="images/logo-dark.png" class="logo-dark" alt="" height="28"> -->
                     </a>
-                    <p class="text-white-50 mt-2 mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-                        deserunt expedita! Id sit dicta quidem aperiam aut ad debitis numquam .</p>
+                    <p class="text-white-50 mt-2 mb-0">Casera is an IT company, works with various industries</p>
 
                     <div class="footer-icon mt-4">
                         <div class=" d-flex align-items-center">
@@ -1124,10 +1097,10 @@
                                 data-bs-placement="top" title="twitter">
                                 <i class="mdi mdi-twitter f-24 align-middle text-primary"></i>
                             </a>
-                            <a href="" class="mx-2 avatar-sm text-center" data-bs-toggle="tooltip"
+                            {{-- <a href="" class="mx-2 avatar-sm text-center" data-bs-toggle="tooltip"
                                 data-bs-placement="top" title="googleplay">
                                 <i class="mdi mdi-google-play f-24 align-middle text-primary"></i>
-                            </a>
+                            </a> --}}
                             <a href="" class="mx-2 avatar-sm text-center">
                                 <i class="mdi mdi-linkedin f-24 align-middle text-primary" data-bs-toggle="tooltip"
                                     data-bs-placement="top" title="linkedin"></i>
