@@ -32,7 +32,7 @@
         <div class="container-fluid">
 
             <!-- LOGO -->
-            <a class="navbar-brand logo text-uppercase" href="index-1.html">
+            <a class="navbar-brand logo text-uppercase" href="{{route('welcome')}}">
                 <img src="{{asset('front/images/logo-light.png')}}" class="logo-light" alt="" height="30">
                 <img src="{{asset('front/images/logo-dark.png')}}" class="logo-dark" alt="" height="30">
             </a>
@@ -1040,8 +1040,6 @@
                             </form>
                         </div>
                     </div>
-
-
                 </div>
                 <div class="col-lg-7">
                     <div class="m-5">
@@ -1109,7 +1107,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-4">
-                    <a class="navbar-brand logo text-uppercase" href="index-1.html">
+                    <a class="navbar-brand logo text-uppercase" href="{{route('welcome')}}">
                         <img src="{{asset('front/images/logo-footer.png')}}" class="logo-light" alt="" height="30">
                         <!-- <img src="images/logo-dark.png" class="logo-dark" alt="" height="28"> -->
                     </a>
