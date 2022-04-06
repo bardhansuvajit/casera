@@ -960,7 +960,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <h5 class="text-dark fw-200"> <span class="text-muted">Call : </span> <a href="tel:9330685831"><strong> 9330685831</strong></a> </h5>
+                            <h5 class="text-dark fw-200"> <span class="text-muted">Call : </span> <a href="tel:9330685831"><strong> 9330685831</strong></a>/ <a href="tel:03335614117"><strong> 033-3561-4117</strong></a> </h5>
 
                             <h5 class="text-dark"> <span class="text-muted">Email : </span> <a href="mailto:casera.tech@gmail.com"><strong>casera.tech@gmail.com</strong></a> </h5>
 
@@ -1060,7 +1060,7 @@
                         </div>
                         <div class="flex-grow-1 ms-3">
                             <h5 class="mb-1">Phone</h5>
-                            <p class="f-14 mb-0 text-muted">9330685831</p>
+                            <p class="f-14 mb-0 text-muted">9330685831/ 033-3561-4117</p>
                         </div>
                     </div>
                 </div>
@@ -1154,8 +1154,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <p class="mb-0 text-center text-muted"> &copy;
-                        <script>document.write(new Date().getFullYear())</script> Casera. Design with <i
-                            class="mdi mdi-heart text-danger"></i>
+                        <script>document.write(new Date().getFullYear())</script> Casera. Design with <i class="mdi mdi-heart text-danger"></i>
                     </p>
                 </div>
             </div>
